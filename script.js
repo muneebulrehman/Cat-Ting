@@ -4,11 +4,11 @@ const loader = document.querySelector('.loader');
 let ready = false;
 let imagesLoaded = 0;
 let photoArray = [];
-let count = 10;
+let count = 15;
 
 function imageLoaded() {
 	imagesLoaded++;
-	if (imagesLoaded === photoArray.length - 3) {
+	if (imagesLoaded === photoArray.length - 6) {
 		ready = true;
 		loader.hidden = true;
 		imagesLoaded = 0;
