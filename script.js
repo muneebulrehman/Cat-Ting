@@ -50,4 +50,4 @@ window.addEventListener('scroll', function (e) {
 
 getPhotos();
 
-// const url = 'https://api.waifu.pics/many/type/category';
+
